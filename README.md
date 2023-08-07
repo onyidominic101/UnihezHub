@@ -2,6 +2,7 @@
 
 This project involved designing and building a custom social networking web application using PHP, MySQL, HTML, CSS, JavaScript and Bootstrap. It is tailored specifically for college students to connect with each other.
 
+
 **Key Features**
 
 -User profiles - Students can signup and create personal profiles with details like interests, gender, contact information, etc.
@@ -13,6 +14,7 @@ This project involved designing and building a custom social networking web appl
 -Messaging - Direct messaging functionality to communicate with connections.
 
 -Notifications - Notifying students of friend requests, messages, reactions to their posts.
+
 
 **Technical Details**
 
@@ -28,13 +30,16 @@ This project involved designing and building a custom social networking web appl
 
 -Responsive UI built using Bootstrap grid and media queries
 
+
 **Development Workflow**
 
 -Agile methodology
 
 -GitHub for source control
 
+
 **Architecture**
+
 The application follows a traditional 3-tier architecture:
 
 -Client Tier - This consists of the frontend UI built with HTML, CSS, JavaScript that runs on the user's browser. Communicates with the middle tier via AJAX/XHR calls.
@@ -42,6 +47,7 @@ The application follows a traditional 3-tier architecture:
 -Application Tier - This tier contains the PHP backend logic for handling request routing, database operations, business logic, and API development.
 
 -Database Tier - MySQL database server for persisting user data, posts, comments and other application information. Optimized through normalization and indexing.
+
 
 **Optimizations**
 
@@ -52,6 +58,7 @@ Some optimizations implemented:
 -CSS and JS minification, compression, caching for faster page loads.
 
 -MySQL indexing on frequently queried columns like post timestamps.
+
 
 **Learnings**
 Key learnings from building this application:
