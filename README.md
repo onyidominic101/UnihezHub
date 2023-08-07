@@ -44,6 +44,7 @@ The application follows a traditional 3-tier architecture:
 -Database Tier - MySQL database server for persisting user data, posts, comments and other application information. Optimized through normalization and indexing.
 
 **Optimizations**
+
 Some optimizations implemented:
 
 -Lazy loading of images and comments to improve page load performance.
